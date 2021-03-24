@@ -1,0 +1,34 @@
+package _9;
+
+class Runner1 extends Thread {
+
+  @Override
+  public void run() {
+    for (int i = 0; i < 10; i++) {
+      System.out.println("Runner1 : " + i);
+    }
+  }
+}
+
+class Runner2 extends Thread {
+
+  @Override
+  public void run() {
+    for (int i = 0; i < 10; i++) {
+      System.out.println("Runner2 : " + i);
+    }
+  }
+}
+
+public class ExtendsThread {
+
+  public static void main(String[] args) {
+    /*
+This is not parallel execution , but multithreaded execution (with time-slicing)
+ */
+    Thread t1 = new Thread(new Runner1());
+    Thread t2 = new Thread(new Runner2());
+    t1.start();
+    t2.start();
+  }
+}
