@@ -49,6 +49,13 @@ Java物件包含屬性(member variable)和方法(member method)。
 
 不意外的存在 Heap 中。
 
+### 個人覺得最簡單的準則
+
+熟悉 Java, 然後看到一個東西時，直接判斷它能不能被其他的類別 / 物件存取。
+
+- 可以 => 放在 heap 上
+- 不行 => 放在 thread stack 上
+
 ### 為什麼這些這麼重要?
 
 只要 thread 有 object reference，就有機會存取該 object，而 Heap memory 是所有線程共用的。
