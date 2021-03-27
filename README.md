@@ -1,4 +1,4 @@
-# Concurrency-Multithreading-and-Parallel-Computing-in-Java
+# Java 多工 / 多線程 / 平行運算
 
 ## 術語
 
