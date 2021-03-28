@@ -1,6 +1,6 @@
 # Java 記憶體模型
 
-> This article is transformed and summarized from [Java Concurrency: Java Memory Model](https://medium.com/javarevisited/java-concurrency-java-memory-model-96e3ac36ec6b)
+> This article is translated and summarized from [Java Concurrency: Java Memory Model](https://medium.com/javarevisited/java-concurrency-java-memory-model-96e3ac36ec6b)
 
 ![](../img/2021-03-27-19-46-35.png)
 
